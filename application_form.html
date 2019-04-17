@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body> <center>
+
+<form class="form-horizontal" method=post action=appl.php>
+<fieldset>
+
+<!-- Form Name -->
+    <b><h3>Application Form of borrower</h3></b>
+
+
+  <!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Request of loan amount</label>
+  <div class="col-md-4">
+  <input id="textinput" name="loanamount" type="text" placeholder="" class="form-control input-md" required>
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Name</label>
+  <div class="col-md-4">
+  <input id="textinput" name="name" type="text" placeholder="" class="form-control input-md" required>
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">S/O W/O D/O</label>
+  <div class="col-md-4">
+  <input id="textinput" name="ro" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Date of Birth</label>
+  <div class="col-md-4">
+  <input id="textinput" name="dob" type="text" placeholder="DD/MM/YYYY" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Age</label>
+  <div class="col-md-4">
+  <input id="textinput" name="age" type="text" placeholder="" class="form-control input-md" required>
+
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Gender</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radio" id="radios-0" value="1" checked="checked">
+      Male
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radio" id="radios-1" value="2">
+      Female
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Designation</label>
+  <div class="col-md-4">
+  <input id="textinput" name="design" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Employee code</label>
+  <div class="col-md-4">
+  <input id="textinput" name="empcode" type="text" placeholder="" class="form-control input-md" required>
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Gross Salary</label>
+  <div class="col-md-4">
+  <input id="textinput" name="gross" type="text" placeholder="" class="form-control input-md"required>
+
+  </div>
+</div>
+
+    <!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Deductions</label>
+  <div class="col-md-4">
+  <input id="textinput" name="ded" type="text" placeholder="" class="form-control input-md"required>
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Net salary </label>
+  <div class="col-md-4">
+  <input id="textinput" name="net" type="text" placeholder="" class="form-control input-md" required>
+
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Date of Joining in Department</label>
+  <div class="col-md-4">
+  <input id="textinput" name="dojd" type="text" placeholder="DD/MM/YYYY" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Period of service completed</label>
+  <div class="col-md-4">
+  <input id="textinput" name="pos" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Retirement due</label>
+  <div class="col-md-4">
+  <input id="textinput" name="retdue" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Pan card number</label>
+  <div class="col-md-4">
+  <input id="textinput" name="pan" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+    <!-- File Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">upload files</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="panupload" class="input-file" type="file">
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Aadhar number</label>
+  <div class="col-md-4">
+  <input id="textinput" name="aadhar" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- File Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">upload files</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="aadharupload" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Address - Residence</label>
+  <div class="col-md-4">
+  <input id="textinput" name="addres" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Address - Office</label>
+  <div class="col-md-4">
+  <input id="textinput" name="addoff" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Phone Number</label>
+  <div class="col-md-4">
+  <input id="textinput" name="phoneres" type="text" placeholder="Personal" class="form-control input-md" required>
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Phone Number</label>
+  <div class="col-md-4">
+  <input id="textinput" name="phoneoff" type="text" placeholder="Office" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Immovable Properties / Assets</label>
+  <div class="col-md-4">
+  <input id="textinput" name="assets" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Savings Bank Account Number</label>
+  <div class="col-md-4">
+  <input id="textinput" name="accno" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput"><b>Guaranteer 1 Name</b></label>
+  <div class="col-md-4">
+  <input id="textinput" name="gua1" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput"><b>Guaranteer 2 Name</b></label>
+  <div class="col-md-4">
+  <input id="textinput" name="gua2" type="text" placeholder="" class="form-control input-md">
+
+  </div>
+</div>
+
+    <!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="singlebutton"></label>
+  <div class="controls">
+    <button id="singlebutton" name="" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form> </center>
+</body>
+</html>
