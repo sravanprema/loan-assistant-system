@@ -4,7 +4,6 @@
         <title>login Process</title>
         <meta charset="utf-8">
     </head>
-
     <body>
         <?php
             $connection= mysqli_connect("localhost","id8385171_acc","sravan1234","id8385171_accounts");
@@ -14,9 +13,7 @@
                 die("Your Server is not Connected to the database!");
             }
             else
-            {
-                                
-
+            {                           
             $pass=$_POST["pass"];
             $pass1=sha1($pass);
             echo $pass1; echo'<br>';
@@ -41,8 +38,7 @@
                 print '<script>document.write("Your Credentials are Wrong. Try Again!");
                 window.location.href="login.html";
                 </script>';
-            }
-              
+	    }              
             }
         ?>
     </body>
